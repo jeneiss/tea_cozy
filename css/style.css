@@ -13,14 +13,14 @@ header {
 	width: 100%;
 	border-bottom: solid 1px seashell;
 	height: 69px;
-	margin-top: 8px;
+	background-color: black;
 }
 
 #header-content {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	height: 69px;
+	height: 100%;
 }
 
 #logo {
@@ -36,4 +36,27 @@ nav {
 
 nav a {
 	color: seashell;
+}
+
+.content {
+	display: flex;
+	padding-top: 69px;
+}
+
+#mission {
+	height: 700px;
+	background: no-repeat center url("images/img-mission-background.jpg");
+	justify-content: center;
+	align-items: center;
+}
+
+#banner {
+	width: 1200px;
+	height: 120px;
+	background-color: black;
+}
+
+#banner > h2,
+#banner > h4 {
+	margin: 20px auto;
 }
