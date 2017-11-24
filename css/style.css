@@ -1,3 +1,4 @@
+
 body {
 	font-family: Helvetica, sans-serif;
 	font-size: 22px;
@@ -7,6 +8,8 @@ body {
 	text-align: center;
 	margin: 0px;
 }
+
+/* header*/
 
 header {
 	position: fixed;
@@ -38,16 +41,18 @@ nav a {
 	color: seashell;
 }
 
+/* mission section */
+
 .content {
 	display: flex;
-	padding-top: 69px;
+	justify-content: center;
 }
 
 #mission {
 	height: 700px;
 	background: no-repeat center url("images/img-mission-background.jpg");
-	justify-content: center;
 	align-items: center;
+	padding-top: 69px;
 }
 
 #banner {
@@ -59,4 +64,27 @@ nav a {
 #banner > h2,
 #banner > h4 {
 	margin: 20px auto;
+}
+
+/* featured section */
+
+#featured {
+	flex-wrap: wrap;
+	width: 1000px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+.featured-group {
+	padding: 0px 15px;
+}
+
+#featured-imgs {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.featured-group > h4 {
+	margin-top: 10px;
 }
