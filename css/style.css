@@ -71,8 +71,7 @@ nav a {
 #featured {
 	flex-wrap: wrap;
 	width: 1000px;
-	margin: 0 auto;
-	margin-top: 50px;
+	margin: 50px auto;
 }
 
 .featured-group {
@@ -81,10 +80,45 @@ nav a {
 
 #featured-imgs {
 	display: flex;
+	width: 100%;
 	flex-wrap: wrap;
 	justify-content: center;
 }
 
 .featured-group > h4 {
 	margin-top: 10px;
+}
+
+/* locations section */
+#locations {
+	height: 500px;
+	background: no-repeat center url("images/img-locations-background.jpg");
+	flex-wrap: wrap;
+	margin: 50px auto;
+}
+
+#location-boxes {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 100%;
+}
+
+.location {
+	width: 300px;
+	height: 250px;
+	background-color: black;
+	opacity: 1;
+	margin: 15px 20px;
+}
+
+/* address */
+address {
+	font-style: normal;
+}
+
+/* footer */
+footer {
+	text-align: left;
+	padding-left: 20px;
 }
