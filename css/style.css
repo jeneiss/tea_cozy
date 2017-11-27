@@ -103,7 +103,7 @@ nav a {
 	background: no-repeat center url("images/img-locations-background.jpg");
 	flex-wrap: wrap;
 	margin: 50px auto;
-	align-content: flex-start;
+	align-content: center;
 }
 
 #location-boxes {
